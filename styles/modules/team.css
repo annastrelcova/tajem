@@ -1,0 +1,73 @@
+.team {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.heading-team {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+.heading-team>h2 {
+    color: #fff;
+}
+
+/* card-ream */
+
+.card-image-team {
+    width: 220px;
+    height: 229px;
+}
+
+.card-image-team>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-name-team {
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.card-profesion-team {
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(250, 250, 250, 0.7);
+}
+
+.initial {
+    border: solid 1px #e1e1e17c;
+    width: 220px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.initial:hover {
+    background-color: #e1e1e17c;
+}
+
+.grid-team {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.grid-team>.grid-items {
+    margin: 0;
+}
+
+.card-team {
+    margin: 10px;
+}
+
+.team-botton {
+    text-align: center;
+}
+
+.team-botton>button {
+    margin: 20px;
+}

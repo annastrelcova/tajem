@@ -1,0 +1,63 @@
+.section-bg-img {
+    position: relative;
+    padding-bottom: 70px;
+    padding-top: 15px;
+}
+
+.section-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.section-background img {
+    width: 100%;
+    /* height: 100%; */
+    /* object-fit: cover; */
+}
+
+.section-foreground {
+    position: relative;
+}
+
+.is-inverse {
+    color: #fff;
+}
+
+.heading-description {
+    text-align: center;
+    line-height: 1.71;
+}
+
+.slider>.container {
+    width: 700px;
+}
+
+/* video */
+
+.video {
+    position: relative;
+    padding-bottom: 70px;
+    padding-top: 15px;
+}
+
+.play-action {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+}
+
+.play-action>p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.img-video{
+    height: auto;
+}

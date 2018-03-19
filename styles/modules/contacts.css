@@ -1,0 +1,51 @@
+.clients-list{
+    display: grid;
+    grid-template-columns: 160px 160px;
+    grid-template-rows: repeat(4, 70px);
+    justify-content: start;
+    margin: 0;
+    padding: 0;
+}
+
+.clients-list>li{
+    width: 160px;
+    height: 70px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.clients-list>li>img{
+    height: auto;
+
+}
+
+.grid-contact{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    justify-content: center;	
+}
+
+.heading-contacts{
+    font-family: 'PlayfairDisplay';
+    font-size: 22px;
+    font-weight: bold;
+    color: #413d4b;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+.form-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.form-contact>input {
+    margin: 10px 0;
+}

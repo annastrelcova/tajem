@@ -1,0 +1,32 @@
+.card-works {
+    min-width: 200px;
+    height: 200px;
+}
+
+.grid-works {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    justify-items: stretch;
+    grid-gap: 0;
+    align-items: stretch;
+}
+
+.grid-works>.grid-items {
+    margin: 0;
+}
+
+.heading-works {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.more {
+    display: flex;
+}
+
+.more-button {
+    margin: 0 auto;
+}

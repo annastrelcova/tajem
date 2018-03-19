@@ -1,0 +1,22 @@
+.story{
+    margin: 70px 0;
+}
+
+.section-story{
+    display: grid;
+    grid-template-columns:50% 50% ;
+    grid-gap: 10px;
+    grid: 10px 600px;
+
+}
+
+.card-story>h2{
+    color: #413d4b;
+}
+
+.story-image{
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 295px;
+    height: auto;
+}
